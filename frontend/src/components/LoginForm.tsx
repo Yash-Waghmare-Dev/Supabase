@@ -6,7 +6,6 @@ export const LoginForm: React.FC = () => {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [loading, setLoading] = useState(false)
-  //error message
   const [error, setError] = useState('')
 
   const { signIn } = useAuth()
